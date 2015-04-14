@@ -18,6 +18,7 @@ namespace NavigationDrawer
 	{
 		internal Sample[] mSamples;
 		internal GridView mGridView;
+        internal String infos = "version";
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
