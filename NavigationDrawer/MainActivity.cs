@@ -20,6 +20,7 @@ namespace NavigationDrawer
 		internal GridView mGridView;
         internal String infos = "version";
         internal String branch = "branch1-modify";
+        internal String dev = "branch-dev-1";
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
