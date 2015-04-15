@@ -45,6 +45,11 @@ namespace NavigationDrawer
 		{
 			StartActivity (mSamples [position].intent);
 		}
+
+        private void newFunction()
+        {
+            //new wonderful function on dev branch
+        }
 	}
 
 	internal class SampleAdapter : BaseAdapter
