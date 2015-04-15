@@ -34,7 +34,7 @@ namespace NavigationDrawer
 					typeof(NavigationDrawerActivity)),
                   
 			};
-            var test = "branch 3";
+            var test = "branch 3.1";
 			// Prepare the GridView
 			mGridView = FindViewById<GridView> (Android.Resource.Id.List);
 			mGridView.Adapter = new SampleAdapter (this);
