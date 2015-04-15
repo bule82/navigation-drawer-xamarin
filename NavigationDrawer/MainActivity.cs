@@ -32,8 +32,9 @@ namespace NavigationDrawer
 					Resource.String.navigationdraweractivity_description,
 					this,
 					typeof(NavigationDrawerActivity)),
+                  
 			};
-
+            var test = "new modify from vs";
 			// Prepare the GridView
 			mGridView = FindViewById<GridView> (Android.Resource.Id.List);
 			mGridView.Adapter = new SampleAdapter (this);
