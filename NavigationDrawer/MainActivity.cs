@@ -19,8 +19,7 @@ namespace NavigationDrawer
 		internal Sample[] mSamples;
 		internal GridView mGridView;
         internal String infos = "version";
-        internal String branch = "branch1-VS";
-        internal String fromWeb= "modify-1";
+        internal String branch = "branch1-modify-web1";
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -33,8 +32,9 @@ namespace NavigationDrawer
 					Resource.String.navigationdraweractivity_description,
 					this,
 					typeof(NavigationDrawerActivity)),
-			};
 
+			};
+            var test = "new modify from vs";
 			// Prepare the GridView
 			mGridView = FindViewById<GridView> (Android.Resource.Id.List);
 			mGridView.Adapter = new SampleAdapter (this);
@@ -45,6 +45,11 @@ namespace NavigationDrawer
 		{
 			StartActivity (mSamples [position].intent);
 		}
+
+        private void newFunction()
+        {
+            //new wonderful function on dev branch
+        }
 	}
 
 	internal class SampleAdapter : BaseAdapter
