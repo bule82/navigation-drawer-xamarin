@@ -19,7 +19,8 @@ namespace NavigationDrawer
 		internal Sample[] mSamples;
 		internal GridView mGridView;
         internal String infos = "version";
-        internal String branch = "branch1-fromVS";
+        internal String branch = "branch1";
+        internal String fromWeb= "modify";
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
